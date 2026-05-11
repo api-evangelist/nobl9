@@ -1,0 +1,74 @@
+aid: nobl9
+name: Nobl9
+description: >-
+  Nobl9 is a service-level objective (SLO) management platform that helps
+  engineering and SRE teams define, measure, and act on reliability targets
+  across cloud and observability tools. The platform aggregates data from
+  Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources
+  to compute error budgets and surface reliability insights. Nobl9 exposes
+  a suite of REST APIs for managing SLOs, annotations, budget adjustments,
+  audit logs, and reports using access token authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Reliability
+  - SLO
+  - Service Level Objectives
+  - SRE
+  - Observability
+  - Error Budgets
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/nobl9/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: nobl9:slo-api
+    name: Nobl9 SLO Status API
+    description: >-
+      REST API for retrieving service level objective status, error budget
+      consumption, and reliability metrics programmatically. Authentication
+      uses a Nobl9 access token.
+    humanURL: https://docs.nobl9.com/api/slo/
+    baseURL: https://app.nobl9.com/api
+    tags:
+      - SLO
+      - Reliability
+      - Error Budgets
+    properties:
+      - type: Documentation
+        url: https://docs.nobl9.com/api/slo/
+      - type: Authentication
+        url: https://docs.nobl9.com/api/access-token/
+  - aid: nobl9:annotations-api
+    name: Nobl9 Annotations API
+    description: >-
+      REST API for creating and managing SLO annotations to contextualize
+      reliability data with deployments, incidents, and operational events.
+    humanURL: https://docs.nobl9.com/api/annotations/
+    baseURL: https://app.nobl9.com/api
+    tags:
+      - Annotations
+      - SLO
+      - Events
+    properties:
+      - type: Documentation
+        url: https://docs.nobl9.com/api/annotations/
+common:
+  - type: Website
+    url: https://www.nobl9.com
+  - type: Documentation
+    url: https://docs.nobl9.com
+  - type: API Documentation
+    url: https://docs.nobl9.com/api/
+  - type: Pricing
+    url: https://www.nobl9.com/pricing
+  - type: Sign Up
+    url: https://app.nobl9.com/signup
+  - type: GitHub Organization
+    url: https://github.com/nobl9
+  - type: GitHub SDK
+    url: https://github.com/nobl9/nobl9-go
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
