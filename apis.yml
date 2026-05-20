@@ -55,6 +55,8 @@ apis:
       - type: Documentation
         url: https://docs.nobl9.com/api/annotations/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nobl9inc
   - type: Website
     url: https://www.nobl9.com
   - type: Documentation
