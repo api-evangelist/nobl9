@@ -71,6 +71,8 @@ common:
     url: https://github.com/nobl9
   - type: GitHub SDK
     url: https://github.com/nobl9/nobl9-go
+  - type: LLMsTxt
+    url: https://docs.nobl9.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
