@@ -61,6 +61,10 @@ apis:
     tags:
       - Annotations
       - SLO
+      - Event
+    tags_raw:
+      - Annotations
+      - SLO
       - Events
     properties:
       - type: Documentation
