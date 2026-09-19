@@ -76,7 +76,7 @@ apis:
     humanURL: https://docs.nobl9.com/api/annotations/
     baseURL: https://app.nobl9.com/api
     tags:
-      - Annotations
+      - Annotation
       - SLO
       - Event
     tags_raw:
