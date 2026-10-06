@@ -48,7 +48,7 @@ tags_raw:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/nobl9/refs/heads/main/apis.yml
 created: '2026-05-11'
-modified: '2026-05-11'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: nobl9:slo-api
@@ -87,6 +87,10 @@ apis:
       - type: Documentation
         url: https://docs.nobl9.com/api/annotations/
 common:
+  - url: https://www.nobl9.com/resources
+    type: Blog
+  - url: https://www.nobl9.com/resources/rss.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/nobl9-domain-security.yml
   - type: LinkedIn
