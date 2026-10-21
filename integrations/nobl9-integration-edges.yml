@@ -4,6 +4,8 @@ checked:
 - datadog/integrations/datadog-integration-edges.yml
 - https://github.com/marketplace?type=actions
 - jetbrains/integrations/jetbrains-integration-edges.yml
+- opentofu/integrations/opentofu-integration-edges.yml
+- terraform/integrations/terraform-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (actions)
@@ -60,5 +62,41 @@ edges:
   category: IDE / developer extension marketplace listing
   badges:
   - Verified vendor
+- partner_name: OpenTofu (opentofu-registry)
+  partner: opentofu
+  partner_match: mirror
+  mirror_match: register
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: opentofu-registry
+  evidence: https://search.opentofu.org/provider/nobl9/nobl9
+  mirror_of: opentofu/integrations/opentofu-integration-edges.yml
+  apps:
+  - nobl9/nobl9
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: infrastructure-as-code provider registry listing
+- partner_name: Terraform (terraform-registry)
+  partner: terraform
+  partner_match: mirror
+  mirror_match: register
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: terraform-registry
+  evidence: https://registry.terraform.io/providers/nobl9/nobl9
+  mirror_of: terraform/integrations/terraform-integration-edges.yml
+  apps:
+  - nobl9/nobl9
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: infrastructure-as-code provider registry listing
+  badges:
+  - Verified publisher (Terraform partner tier)
 source:
 - https://github.com/marketplace?type=actions
