@@ -3,6 +3,7 @@ method: searched
 checked:
 - datadog/integrations/datadog-integration-edges.yml
 - https://github.com/marketplace?type=actions
+- jetbrains/integrations/jetbrains-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: GitHub Marketplace (actions)
@@ -40,5 +41,24 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: Metrics
+- partner_name: JetBrains (jetbrains-marketplace)
+  partner: jetbrains
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: jetbrains-marketplace
+  evidence: https://plugins.jetbrains.com/vendor/nobl9
+  mirror_of: jetbrains/integrations/jetbrains-integration-edges.yml
+  apps:
+  - Nobl9
+  listing_count: 1
+  detected: '2026-10-20'
+  detected_by: mirror-platform-listings.py
+  category: IDE / developer extension marketplace listing
+  badges:
+  - Verified vendor
 source:
 - https://github.com/marketplace?type=actions
