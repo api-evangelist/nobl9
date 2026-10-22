@@ -121,3 +121,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: nobl9-backstage-own
+  label: Backstage (own)
+  partner: backstage
+  partner_name: Backstage (own)
+  category: Reliability
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/backstage/backstage/tree/d72327203d5d0812bee2eace8688fa5ab22867be/microsite/data/plugins/nobl9.yaml
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
