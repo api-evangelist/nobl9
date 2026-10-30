@@ -1,4 +1,4 @@
-# Nobl9 (nobl9)
+# Nobl9
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-API and integration profile for Nobl9.
+Nobl9 is a service-level objective (SLO) management platform that helps engineering and SRE teams define, measure, and act on reliability targets across cloud and observability tools. The platform aggregates data from Datadog, Prometheus, New Relic, Splunk, AWS CloudWatch, and other sources to compute error budgets and surface reliability insights. Nobl9 exposes a suite of REST APIs for managing SLOs, annotations, budget adjustments, audit logs, and reports using access token authentication.
+
+**Areas:** Reliability · SLO · SRE · Observability · Error Budgets
+
+## Nobl9 on APIs.io
+
+Everything profiled for Nobl9 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nobl9/](https://apis.io/providers/nobl9/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Nobl9 SLO Status API](https://apis.io/apis/nobl9/slo-api/) — REST API for retrieving service level objective status, error budget consumption, and reliability metrics programmatically. Authentication uses a Nobl9…
+- [Nobl9 Annotations API](https://apis.io/apis/nobl9/annotations-api/) — REST API for creating and managing SLO annotations to contextualize reliability data with deployments, incidents, and operational events.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [nobl9](https://apis.io/servers/nobl9/nobl9/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nobl9 Domain Security](https://apis.io/security/nobl9/nobl9-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.nobl9.com)
+- [Documentation](https://docs.nobl9.com)
+- [Pricing](https://www.nobl9.com/pricing)
+- [Blog](https://www.nobl9.com/resources)
+- [GitHub](https://github.com/nobl9)
+
+## API Evangelist rating
+
+**Kin Score 18.3** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 23.7 |
+
+**Agent readiness 14.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nobl9/](https://apis.io/providers/nobl9/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nobl9: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nobl9/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
